@@ -1,0 +1,2 @@
+# ongaku
+my discord bot :)

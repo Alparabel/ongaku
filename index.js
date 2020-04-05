@@ -1,4 +1,5 @@
 const discord = require("discord.js");
+const token = 'NjI1NjM0NzEyNDg0MDUzMDAy.Xopncg.Hxrm5-xKWWeBFaDk8k22msIGJik';
 const wait = require("util").promisify(setTimeout);
 let config = require("./config/config.json");
 const fs = require('fs');
@@ -156,4 +157,4 @@ client.on('message', message => {
     }
 })
 
-client.login(process.env.config.token);
+client.login(process.env.token);

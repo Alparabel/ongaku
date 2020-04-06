@@ -34,7 +34,7 @@ module.exports.run = async (client, message, args) => {
         .setThumbnail(client.user.displayAvatarURL)
         .setDescription('\n**__Info Commands__**')
         .addField('**botinfo**', '**Description:** This command gives you information about me! \n**Usage:** o!botinfo')
-        .addField('**serverinfo**', '**Description:** This command gives you information about the server you use the command in! \n**Usage:** o!serverinfo')
+        .addField('**serverinfo**', '**Description:** This command gives you information about the server you use the command on! \n**Usage:** o!serverinfo')
         .addField('**userinfo**', '**Description:** This command gives you information about your account or the account of another user! \n**Usage:** o!userinfo (@user)')
         .addField('**avatar**', '**Description:** This command shows your avatar or the avatar of another user! \n**Usage:** o!avatar (@user)')
         .setFooter('Ongaku Bot', client.user.displayAvatarURL);
@@ -44,7 +44,7 @@ module.exports.run = async (client, message, args) => {
         .setAuthor(`Ongaku Help`)
         .setThumbnail(client.user.displayAvatarURL)
         .setDescription('\n**__Game Commands__**', '(trying to get more done)')
-        .addField('**rock, paper, scissors/rps**', '**Description:** With this command you can play rps against me! \n**Usage:** Please use o!rps for explainaton!')
+        .addField('**rock, paper, scissors/rps**', '**Description:** With this command you can play rps against me! \n**Usage:** Please use o!rps for explanation!')
         .setFooter('Ongaku Bot', client.user.displayAvatarURL);
 
         let Sembed4 = new Discord.RichEmbed()
@@ -58,7 +58,7 @@ module.exports.run = async (client, message, args) => {
         .addField('**kiss**', '**Description:** If you want to kiss someone use this command! \n**Usage:** o!kiss @user')
         .addField('**pat**', '**Description:** If you want to pat someone use this command! \n**Usage:** o!pat @user')
         .addField('**slap**', '**Description:** If you want to slap someone use this command! \n**Usage:** o!slap @user')
-        .addField('**smug**', '**Description:** If you want to smug us this command! \n**Usage:** o!smug')
+        .addField('**smug**', '**Description:** If you want to smug use this command! \n**Usage:** o!smug')
         .setFooter('Ongaku Bot', client.user.displayAvatarURL);
         message.channel.send(embed)
         message.author.send(Sembed)

@@ -76,7 +76,7 @@ client.on("message", async message => {
 
 client.on('ready', () =>{
     console.log(`big boi is in town`);
-    client.user.setActivity('to epic gamer music', {type: "LISTENING"});
+    client.user.setActivity('epic gamer music', {type: "LISTENING"});
 
 })
 
